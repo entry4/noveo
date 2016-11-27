@@ -3,9 +3,10 @@ Noveo PHP developer test task
 REQUIREMENTS
 ------------
 
-The minimum requirement by this project that your Web server runs Apache and supports PHP 5.6.0.
+The minimum requirement by this project that your Web server runs Apache2 and supports PHP 5.6.0.
 To use Nginx you have to configure it to support `prettyUrl` functionality (please follow [this guide](http://www.yiiframework.com/doc-2.0/guide-start-installation.html))
 
+The project was tested on Apache2 + php7.0
 
 INSTALLATION
 ------------
