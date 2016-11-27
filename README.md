@@ -3,13 +3,13 @@ Noveo PHP developer test task
 REQUIREMENTS
 ------------
 
-The minimum requirement by this project that your Web server runs Apache and supports PHP 5.4.0.
+The minimum requirement by this project that your Web server runs Apache and supports PHP 5.6.0.
 To use Nginx you have to configure it to support `prettyUrl` functionality (please follow [this guide](http://www.yiiframework.com/doc-2.0/guide-start-installation.html))
 
 
 INSTALLATION
 ------------
-
+Clone this repository
 
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
 at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
@@ -18,6 +18,7 @@ You can then install this project using the following commands:
 
 ~~~
 php composer.phar global require "fxp/composer-asset-plugin:^1.2.0"
+php composer.phar update
 php composer.phar install
 ~~~
 
